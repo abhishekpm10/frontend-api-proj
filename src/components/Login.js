@@ -16,7 +16,7 @@ export default function Login() {
           className='login-button google'
           onClick={() => auth.signInWithRedirect(new firebase.auth.GoogleAuthProvider())}
         >
-          <GoogleOutlined /> Sign In with Google
+          <GoogleOutlined /> Sign In With Google
         </div>
 
         <br/><br/>
