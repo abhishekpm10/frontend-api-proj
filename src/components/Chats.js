@@ -7,7 +7,6 @@ import { ChatEngine } from 'react-chat-engine'
 import { useAuth } from "../contexts/AuthContext"
 
 import { auth } from "../firebase"
-import Button from 'react-bootstrap/Button' 
 export default function Chats() {
   const didMountRef = useRef(false)
   const [ loading, setLoading ] = useState(true)
